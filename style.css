@@ -5,6 +5,7 @@ html {
   body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
   }
   
   .song {
@@ -290,3 +291,51 @@ html {
       font-weight: lighter;
     }
   }
+
+  @media (max-width: 768px) {
+    .one h1 {
+        font-size: 24px;
+    }
+
+    .two {
+        font-size: 16px;
+    }
+
+    .hbd-chatbox {
+        font-size: 14px;
+    }
+
+    .wish-hbd {
+        font-size: 20px;
+    }
+
+    .wish-hbd h5 {
+        font-size: 16px;
+    }
+
+    .idea-1, .idea-2, .idea-3, .idea-4, .idea-5, .idea-6 {
+        font-size: 14px;
+    }
+
+    .baloons img {
+        width: 50px; /* Adjust size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .one h1 {
+        font-size: 20px;
+    }
+
+    .two {
+        font-size: 14px;
+    }
+
+    .wish-hbd {
+        font-size: 18px;
+    }
+
+    .wish-hbd h5 {
+        font-size: 14px;
+    }
+}
